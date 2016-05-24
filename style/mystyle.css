@@ -6,6 +6,19 @@
     padding: 20px;
 }
 
+header {
+    width: 100%;
+    min-height: 100px;
+    height: 300px;
+    overflow: hidden;
+    position: fixed;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
 .medium-image{
     width: 150px;
     height: 150px;
@@ -43,4 +56,12 @@
 .connect-buttons{
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.body {
+    min-height: 800px;
+}
+
+.hidden-name {
+    visibility: visible;
 }
