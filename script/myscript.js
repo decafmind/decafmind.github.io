@@ -17,7 +17,9 @@ $(document).ready(function(){
         if($('#header_nav').data('size') == 'small')
         {
             $('#header_nav').data('size','big');
-                $('.header').slideDown();
+                $('.header').slideDown(function(){
+                    $('.body').css('top', '270px');
+                });
         } 
     }
     });
